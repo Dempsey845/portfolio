@@ -33,27 +33,77 @@
 
 .latest-games-container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
+
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+}
+
+.about-me-container {
+  display: flex;
+  gap: 15px;
+
+  align-items: center;
+
+  max-width: 1200px;
+  margin: 100px auto 0;
+  padding: 0 20px;
+}
+
+.about-me-container img {
+  width: clamp(180px, 15vw, 250px);
+  height: clamp(180px, 15vw, 250px);
+
+  border-radius: 50%;
+  border: 2px solid #2d2d3a;
+
+  object-fit: cover;
+}
+
+.scroll-animation {
+  opacity: 0;
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+}
+
+.slide-left {
+  transform: translateX(-40px);
+}
+
+.slide-right {
+  transform: translateX(40px);
+}
+
+.scroll-animation.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 800px) {
+  .latest-games-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .about-me-container {
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8rem;
+  }
+
+  .game-preview {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .hero-container h1 {
     font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .latest-games-container {
-    grid-template-columns: auto;
-    gap: 50px;
-  }
-
-  .game-preview {
-    max-width: 550px;
   }
 }
