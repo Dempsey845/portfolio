@@ -1,13 +1,3 @@
-.latest-games-container {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  justify-content: center;
-  gap: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
-}
-
 hr {
   flex-grow: 1;
   width: 100%;
