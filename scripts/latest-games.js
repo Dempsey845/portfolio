@@ -21,7 +21,7 @@ const games = [
     title: "Roulette Time",
     description:
       "A PSX-style Wild West shooter focused on escalating enemy waves, revolver mechanics and a roulette system that changes each bullet’s effects.",
-    date: "Sep 2026",
+    date: "June 2026",
     image: "images/roulette-time-logo.png",
     imageAlt: "Roulette Time logo",
     page: "projects/roulette-time.html",
