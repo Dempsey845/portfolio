@@ -1,0 +1,66 @@
+.hero-container {
+  height: 50vh;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)),
+    url("../images/games-banner.png");
+
+  background-position: center;
+}
+
+.hero-content {
+  transform: translateY(0);
+}
+
+.hero-container h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.hero-container p {
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  font-size: 20px;
+}
+
+.games-section {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding: 0 20px;
+}
+
+.game-preview p {
+  margin: 0;
+}
+
+.game-dev-details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .games-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .game-preview {
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
