@@ -23,6 +23,11 @@ header {
   padding-right: 15px;
 }
 
+.nav-option a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-option:hover {
   background-color: #a78bfa71;
 }
