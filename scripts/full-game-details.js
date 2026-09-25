@@ -165,4 +165,99 @@ const gameData = {
       },
     ],
   },
+  "trust-protocol": {
+    title: "Trust // Protocol",
+    category: "Brackeys Game Jam 2026.2 · Completed",
+    intro:
+      "A first-person arena survival shooter where you fight corrupted robots alongside companions whose allegiance can change. I built it to bring together the FPS, AI, UI and game-feel skills I had been developing.",
+
+    banner: "../images/games-banner.png",
+    itchUrl: "https://dempsey845.itch.io/trust-no-one",
+
+    colors: {
+      accent: "#75e4ec",
+      hover: "#b0f4f6",
+      buttonText: "#102527",
+    },
+
+    facts: [
+      { label: "Engine", value: "Godot" },
+      { label: "Project", value: "Brackeys Game Jam 2026.2" },
+      { label: "Genre", value: "First-person arena survival shooter" },
+      { label: "Status", value: "Released" },
+      { label: "Platforms", value: "Windows and browser" },
+      { label: "My role", value: "Programming, game design and UI" },
+    ],
+
+    sections: [
+      {
+        label: "The game",
+        title: "Survive the arena",
+        text: "Trust // Protocol is a first-person shooter about surviving waves of corrupted robots. Companion robots fight alongside the player, but their allegiance can change. That uncertainty is the central idea behind the game: even while concentrating on the next enemy, players have to pay attention to the robots around them.",
+        showFacts: true,
+      },
+      {
+        label: "Design goal",
+        title: "Bringing my FPS skills together",
+        text: "For this jam, I wanted to make an arena shooter that felt satisfying moment to moment. I brought together what I had learned about player movement, aiming, shooting, enemy behaviour and feedback, then built a complete game around those systems.",
+        cards: [
+          {
+            title: "Movement and aiming",
+            text: "I worked on responsive first-person movement and aiming so that moving around the arena and lining up shots felt good.",
+          },
+          {
+            title: "Weapon feel",
+            text: "I focused on the feedback around firing and hitting targets, including effects and weapon behaviour that make each shot feel more satisfying.",
+          },
+          {
+            title: "Arena pressure",
+            text: "Enemy waves keep the player moving and give the shooting mechanics a reason to be used under pressure.",
+          },
+        ],
+      },
+      {
+        label: "Gameplay systems",
+        title: "Robots, upgrades and abilities",
+        text: "The game's systems needed to work together: enemies pursue and attack the player, companions add uncertainty to each encounter, and progression gives players more options as they survive.",
+        cards: [
+          {
+            title: "Robot AI",
+            text: "I built robot behaviours for chasing and attacking, along with the allegiance system that allows companions to become part of the threat.",
+          },
+          {
+            title: "Wave progression",
+            text: "Waves structure each run and increase the pressure as the player continues through the arena.",
+          },
+          {
+            title: "Player abilities",
+            text: "Upgrades and the unlockable Surge Attack give the player additional ways to respond when fights become more intense.",
+          },
+        ],
+      },
+      {
+        label: "Finishing the game",
+        title: "More than the combat loop",
+        text: "I also wanted the jam submission to feel like a complete game that someone could start and understand without me explaining it. Alongside the arena gameplay, I added a tutorial, settings, menus, UI and controller support.",
+        cards: [
+          {
+            title: "Tutorial and UI",
+            text: "The tutorial introduces the controls and mechanics, while the interface communicates information the player needs during a run.",
+          },
+          {
+            title: "Settings",
+            text: "Graphics and other settings help players adjust the experience. The browser version can struggle, so the itch page recommends the Windows download where possible.",
+          },
+          {
+            title: "Controller support",
+            text: "I added controller inputs for movement, aiming, shooting, menus and the Surge Attack.",
+          },
+        ],
+      },
+      {
+        label: "Scope and reflection",
+        title: "What I finished and what I cut",
+        text: "I became ill during the jam and had to submit the game earlier than planned. Trust // Protocol still reached a playable, complete state with a tutorial, settings and controller support, but I had to leave out planned features such as more varied enemy types and bosses. The project taught me how much difference a finished player experience makes, and how to prioritise the core game when time becomes limited.",
+      },
+    ],
+  },
 };
