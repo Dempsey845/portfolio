@@ -30,7 +30,7 @@ const games = [
     date: "June 2026",
     image: "images/roulette-time-logo.png",
     imageAlt: "Roulette Time logo",
-    page: "projects/roulette-time.html",
+    page: "https://dempsey845.itch.io/roulette-time",
     devType: "jam",
     language: "GDScript",
     engine: "Godot",
