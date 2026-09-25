@@ -10,6 +10,9 @@
 
 .hero-content {
   transform: translateY(0);
+
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .hero-container h1 {
@@ -62,5 +65,11 @@
     max-width: 550px;
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-container p {
+    font-size: 15px;
   }
 }

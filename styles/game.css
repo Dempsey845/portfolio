@@ -16,6 +16,7 @@ hr {
   cursor: pointer;
   overflow: hidden;
   text-decoration: none;
+  padding-top: 20px;
 
   opacity: 0;
   transform: translateY(40px);
