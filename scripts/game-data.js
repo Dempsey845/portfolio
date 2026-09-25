@@ -40,7 +40,7 @@ const games = [
     description:
       "A cozy 3D delivery adventure where you play as Pip, a tiny courier exploring a whimsical world to deliver packages and help its inhabitants.",
     date: "June 2026 - Ongoing",
-    image: "images/pip-the-courier-logo.jpg",
+    image: "images/pip-the-courier-logo.png",
     imageAlt: "Pip The Courier logo",
     page: "projects/pip-the-courier.html",
     devType: "wip",
