@@ -71,6 +71,107 @@ const gameData = {
       },
     ],
   },
+  "shy-scarecrow": {
+    title: "Shy Scarecrow",
+    category: "Comfy Jam Autumn (2026) · Completed",
+    intro:
+      "A short autumn puzzle game featuring a scarecrow that stays still while you watch it and moves when you look away. Created for Comfy Jam Autumn (2026), this project was an opportunity to try a new genre and develop my Blender modelling and visual presentation.",
+
+    banner: "../images/shy-scarecrow-banner.png",
+    itchUrl: "https://dempsey845.itch.io/shy-scarecrow",
+
+    colors: {
+      accent: "#efb366",
+      hover: "#ffd39a",
+      buttonText: "#302216",
+    },
+
+    facts: [
+      { label: "Engine", value: "Godot" },
+      { label: "Project", value: "Comfy Jam Autumn (2026)" },
+      { label: "Genre", value: "3D puzzle" },
+      { label: "Theme", value: "Autumn" },
+      {
+        label: "Limitation",
+        value: "Things Change When You Look Away",
+      },
+      {
+        label: "My role",
+        value: "Programming, game design and 3D art",
+      },
+    ],
+
+    sections: [
+      {
+        label: "The game",
+        title: "Keep an eye on the scarecrow",
+        text: "Shy Scarecrow turns the act of looking into a gameplay mechanic. The scarecrow stops in place when the player watches it and moves when they look away. This behaviour forms the central idea of a short puzzle game set in an autumn environment.",
+        showFacts: true,
+      },
+      {
+        label: "The jam",
+        title: "Autumn, with a change out of sight",
+        text: "The jam paired the theme Autumn with the limitation Things Change When You Look Away. I used autumn to guide the setting and visual direction, while the limitation became the rule behind the scarecrow's behaviour. I wanted both parts of the brief to shape the game itself.",
+        cards: [
+          {
+            title: "An autumn setting",
+            text: "Pumpkins and a scarecrow gave me a starting point for an environment that connects directly to the jam's seasonal theme.",
+          },
+          {
+            title: "Looking as an interaction",
+            text: "Watching the scarecrow holds it in place. Looking away allows it to move, making the player's attention part of how they interact with the game.",
+          },
+          {
+            title: "A focused idea",
+            text: "I built the project around one central behaviour, using a short format to explore it within the scope of a jam submission.",
+          },
+        ],
+      },
+      {
+        label: "Game design",
+        title: "Trying a short puzzle game",
+        text: "My main goal was to try something new by creating a short puzzle game. This meant thinking about how players discover a rule, understand its consequences and use that knowledge to make progress.",
+        cards: [
+          {
+            title: "A readable rule",
+            text: "The scarecrow's two states give the player a clear relationship to learn: it stays still while watched and moves while out of sight.",
+          },
+          {
+            title: "Player observation",
+            text: "The mechanic makes looking around an active decision. Turning away changes what the scarecrow can do, so observation becomes part of solving the puzzle.",
+          },
+          {
+            title: "Keeping the scope small",
+            text: "A short game gave me room to practise puzzle design while also spending time on modelling and presentation.",
+          },
+        ],
+      },
+      {
+        label: "Art and presentation",
+        title: "Developing my Blender skills",
+        text: "Alongside trying a new genre, I focused on improving my Blender skills and the game's visuals. The autumn setting gave the modelling work a clear direction and encouraged me to think about how individual assets fit together in a scene.",
+        cards: [
+          {
+            title: "3D modelling",
+            text: "I used the project to practise creating game assets in Blender and bringing them into a playable Godot environment.",
+          },
+          {
+            title: "A consistent setting",
+            text: "I worked on making the models and environment feel like parts of the same autumn scene.",
+          },
+          {
+            title: "Visual clarity",
+            text: "The scarecrow is central to the mechanic, so its presence and movement need to be easy for the player to notice and understand.",
+          },
+        ],
+      },
+      {
+        label: "Reflection",
+        title: "Exploring a different kind of game",
+        text: "Shy Scarecrow gave me a focused way to explore puzzle design while continuing to improve my 3D art. Building around the act of looking encouraged me to think about player attention as an interaction, while the small scope let me give more time to Blender modelling and the overall visual presentation.",
+      },
+    ],
+  },
   "supermarket-scramble": {
     title: "Supermarket Scramble",
     category: "Untitled Game Jam #131 · Completed",

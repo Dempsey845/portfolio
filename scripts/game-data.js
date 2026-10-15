@@ -1,5 +1,17 @@
 const games = [
   {
+    title: "Shy Scarecrow",
+    description:
+      "A short autumn puzzle game where a scarecrow moves when you look away, created to explore puzzle design and improve my Blender modelling and visuals.",
+    date: "Oct 2026",
+    image: "images/shy-scarecrow-logo.png",
+    imageAlt: "Shy Scarecrow logo",
+    page: "projects/shy-scarecrow.html",
+    devType: "jam",
+    language: "GDScript",
+    engine: "Godot",
+  },
+  {
     title: "Trust // Protocol",
     description:
       "A 3D arena shooter created in five days, focusing on improved UI, controller support and more advanced AI systems.",
